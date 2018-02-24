@@ -1,0 +1,10 @@
+C:\Users\andre\Documents\Visual Studio 2017\Projects\ProjetoSoma\ProjetoSoma\bin\Debug\ProjetoSoma.exe.config
+C:\Users\andre\Documents\Visual Studio 2017\Projects\ProjetoSoma\ProjetoSoma\bin\Debug\ProjetoSoma.exe
+C:\Users\andre\Documents\Visual Studio 2017\Projects\ProjetoSoma\ProjetoSoma\bin\Debug\ProjetoSoma.pdb
+C:\Users\andre\Documents\Visual Studio 2017\Projects\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.csprojResolveAssemblyReference.cache
+C:\Users\andre\Documents\Visual Studio 2017\Projects\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.frmPrincipal.resources
+C:\Users\andre\Documents\Visual Studio 2017\Projects\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.Properties.Resources.resources
+C:\Users\andre\Documents\Visual Studio 2017\Projects\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.csproj.GenerateResource.Cache
+C:\Users\andre\Documents\Visual Studio 2017\Projects\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\Visual Studio 2017\Projects\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.exe
+C:\Users\andre\Documents\Visual Studio 2017\Projects\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.pdb
