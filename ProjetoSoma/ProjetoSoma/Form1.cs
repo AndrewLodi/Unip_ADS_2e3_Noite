@@ -7,50 +7,38 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ProjetoSoma.Modelo
 
 namespace ProjetoSoma
 {
     public partial class frmPrincipal : Form
     {
+        Controle controle = new Controle();
         public frmPrincipal()
         {
             InitializeComponent();
         }
 
+        
+
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            Double n1 = 0.0, n2 = 0.0, resultado = 0.0;
-            n1 = Convert.ToDouble(txbPrimeiroNumero.Text);
-            n2 = Convert.ToDouble(txbSegundoNumero.Text);
-            resultado = n1 + n2;
-            lblResultado.Text = resultado.ToString();
+            lblResultado.Text = controle.Calcular(txbPrimeiroNumero.Text, txbSegundoNumero.Text, "+");
         }
 
         private void btnSubtrair_Click(object sender, EventArgs e)
         {
-            Double n1 = 0.0, n2 = 0.0, resultado = 0.0;
-            n1 = Convert.ToDouble(txbPrimeiroNumero.Text);
-            n2 = Convert.ToDouble(txbSegundoNumero.Text);
-            resultado = n1 - n2;
-            lblResultado.Text = resultado.ToString();
+            lblResultado.Text = controle.Calcular(txbPrimeiroNumero.Text, txbSegundoNumero.Text, "-");
         }
 
         private void btnMultiplicar_Click(object sender, EventArgs e)
         {
-            Double n1 = 0.0, n2 = 0.0, resultado = 0.0;
-            n1 = Convert.ToDouble(txbPrimeiroNumero.Text);
-            n2 = Convert.ToDouble(txbSegundoNumero.Text);
-            resultado = n1 * n2;
-            lblResultado.Text = resultado.ToString();
+            lblResultado.Text = controle.Calcular(txbPrimeiroNumero.Text, txbSegundoNumero.Text, "*");
         }
 
         private void btnDivisao_Click(object sender, EventArgs e)
         {
-            Double n1 = 0.0, n2 = 0.0, resultado = 0.0;
-            n1 = Convert.ToDouble(txbPrimeiroNumero.Text);
-            n2 = Convert.ToDouble(txbSegundoNumero.Text);
-            resultado = n1 / n2;
-            lblResultado.Text = resultado.ToString();
+            lblResultado.Text = controle.Calcular(txbPrimeiroNumero.Text, txbSegundoNumero.Text, "/");
         }
     }
 }
